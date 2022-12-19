@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset= "UTF-8">
+	<title>Puen Web Page 3</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav>
+		<div class="topnav">
+			<a class="active" href="index.html" id="home">Home</a>
+			<a href="cooking.html">Cooking</a>
+			<a href="writing.html">Writing</a>
+			<a href="rapping.html">Rapping</a>
+		</div>
+	</nav>
+
+	<br>
+
+	<section>
+		<img id="Puen_photo" src="Files/Puen.jpeg" alt="Puen's Photo" width="300" height="500">
+		<h1>Puen Xu</h1>
+		<p>Undergraduate Student<br>Worcester Polytechnic Institute</p>
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'AboutMe')" id="defaultOpen">About Me</button>
+			<button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+			<button class="tablinks" onclick="openTab(event, 'ToDoList')">To-Do List</button>
+		</div>
+
+		<div id="AboutMe" class="tabcontent">
+			<h3>About Me</h3>
+			<p>Puen Xu is a rising junior RRE major at WPI from Shanghai, China. He is interested in cooking, writing, rapping, running, and watching all kinds of sport games. Currently, he is on a half marathon project where he will have a 21.2 kilometer (13.1M) run at the end of July! One fun fact about him is that he enjoys learning languages􏰍, and nowadays he can speak Chinese, Shanghai Dialect, English, Japanese and a little bit of French and Spanish.</p>
+		</div>
+
+		<div id="Projects" class="tabcontent">
+			<h3>Projects and Current Progress</h3>
+			<br>
+			<label for="half_marathon">Half Marathon Training:</label>
+			<progress id="half_marathon" value="40" max="100"> 40% </progress>
+			<br>
+			<label for="novel_hearts_door">Novel - Heart's Door:</label>
+			<progress id="novel_hearts_door" value="100" max="100"> Complete </progress>
+			<br>
+			<label for="novel_ultraman_veritas">Novel - Ultraman Veritas:</label>
+			<progress id="novel_ultraman_veritas" value="5" max="100"> 5% </progress>
+			<br>
+			<label for="rap_song_forever">Rap Song - Forever:</label>
+			<progress id="rap_song_forever" value="100" max="100"> Complete </progress>
+			<br>
+			<label for="personal_website">Personal Website:</label>
+			<progress id="personal_website" value="60" max="100"> 60% </progress>
+			<br><br>
+		</div>
+
+		<div id="ToDoList" class="tabcontent">
+			<h3>To-Do List in the Summer</h3>
+			<ul id="to_do">
+				<li>To complete a Half Marathon</li>
+				<li>To learn JavaScript</li>
+				<li>To learn SolidWorks</li>
+				<li>To learn Adobe Photoshop</li>
+				<li>To watch Jurassic World: Dominion</li>
+				<li>To watch Thor: Love and Thunder</li>
+			</ul>
+		</div>
+	</section>
+
+	<footer><br><p>This page is created by Puen Xu.</p></footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
